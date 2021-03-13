@@ -1,0 +1,27 @@
+{
+  "name": "birthday-project",
+  "version": "1.0.0",
+  "description": "Birthday greetings..",
+  "main": " ",
+  "scripts": {
+    "server-node": "http-server -p 8081",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikkimahato/birthday-project.git"
+  },
+  "keywords": [
+    "Birthday"
+  ],
+  "author": "Bikki Mahato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bikkimahato/birthday-project/issues"
+  },
+  "homepage": "https://github.com/bikkimahato/birthday-project#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "http-server": "^0.12.1"
+  }
+}
