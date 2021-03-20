@@ -174,8 +174,8 @@ $('document').ready(function () {
   });
 
   $('#story').click(function () {
-    audio2.play();
-    audio.pause();
+    // audio2.play();
+    // audio.pause();
     $(this).fadeOut('slow');
     $('.cake')
       .fadeOut('fast')
